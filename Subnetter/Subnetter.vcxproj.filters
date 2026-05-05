@@ -21,9 +21,15 @@
     <ClCompile Include="ipAddress.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="subnet.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ipAddress.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="subnet.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
   </ItemGroup>

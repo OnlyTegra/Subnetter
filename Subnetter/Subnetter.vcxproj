@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ipAddress.cpp" />
+    <ClCompile Include="subnet.cpp" />
     <ClCompile Include="Subnetter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ipAddress.h" />
+    <ClInclude Include="subnet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
