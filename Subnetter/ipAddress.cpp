@@ -45,6 +45,11 @@ std::string ipAddress::print()
     return std::to_string(ipAddress::firstOctet) + "." + std::to_string(ipAddress::secondOctet) + "." + std::to_string(ipAddress::thirdOctet) + "." + std::to_string(ipAddress::fourthOctet) + "/" + std::to_string(ipAddress::cidr);
 }
 
+std::string ipAddress::printWithoutCIDR()
+{
+    return std::to_string(ipAddress::firstOctet) + "." + std::to_string(ipAddress::secondOctet) + "." + std::to_string(ipAddress::thirdOctet) + "." + std::to_string(ipAddress::fourthOctet);
+}
+
 std::string ipAddress::getSubnetMask()
 {
     std::string temp = "";

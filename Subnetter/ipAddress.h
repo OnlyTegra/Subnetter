@@ -15,6 +15,7 @@ public:
 	ipAddress(std::string);
 	std::string getSubnetMask();
 	std::string print();
+	std::string printWithoutCIDR();
 
 private:
 	void serializeIp(std::string ip);
