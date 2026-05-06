@@ -4,7 +4,7 @@ class subnet
 {
 public:
 	subnet(ipAddress _ip);
-	std::string execute(int nHost);
+	std::string execute(int nReti);
 private:
 	ipAddress localIp;
 };
